@@ -23,24 +23,16 @@ begin
 	
 	else if(mode==4'd2)
 	begin
-		if(vcnt<=12'd359)
-		begin
-			R<=8'd15;
-			G<=8'd15;
-			B<=8'd15;
-		end
-		else if(vcnt<12'd719)
-		begin
-			R<=8'd127;
-			G<=8'd127;
-			B<=8'd127;
-		end
-		else
-		begin
-			R<=8'd255;
-			G<=8'd255;
-			B<=8'd255;
-		end
+		R<=8'd159;
+		G<=8'd159;
+		B<=8'd159;
+	end
+	
+	else if(mode==4'd3)
+	begin
+		R<=8'd95;
+		G<=8'd95;
+		B<=8'd95;
 	end
 end
 

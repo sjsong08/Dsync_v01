@@ -1,4 +1,4 @@
-module Dsync_v01(
+		module Dsync_v01(
 				input in_clk, Reset, Connect, reset2,
 				input GPIO_BT,
 				input [3:0] SW,
